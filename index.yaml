@@ -1,0 +1,29 @@
+apiVersion: v1
+entries:
+  babylon-config:
+  - apiVersion: v2
+    appVersion: 0.7.0
+    created: "2021-03-31T14:35:48.644734352-04:00"
+    dependencies:
+    - alias: anarchy-operator
+      condition: anarchy-operator.enabled
+      name: anarchy
+      repository: https://tylerauerbeck.github.io/anarchy
+      version: 0.14.2
+    - alias: poolboy-operator
+      condition: poolboy-operator.enabled
+      name: poolboy
+      repository: https://tylerauerbeck.github.io/poolboy
+      version: 0.6.1
+    - condition: agnosticv-operator.enabled
+      name: agnosticv-operator
+      repository: https://tylerauerbeck.github.io/agnosticv-operator
+      version: 0.8.0
+    description: Babylon Configuration
+    digest: 608cc5a35b9b21858ef369774bd4ccdb5b0e355b7e2eec66ea91dc0570472861
+    name: babylon-config
+    type: application
+    urls:
+    - https://tylerauerbeck.github.io/babylon/babylon-config-0.0.1.tgz
+    version: 0.0.1
+generated: "2021-03-31T14:35:48.642961057-04:00"
