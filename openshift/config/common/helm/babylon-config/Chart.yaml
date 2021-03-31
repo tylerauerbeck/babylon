@@ -4,4 +4,20 @@ name: babylon-config
 description: Babylon Configuration
 type: application
 version: 0.0.1
-appVersion: 0.0.1
+appVersion: 0.7.0
+
+dependencies:
+- name: anarchy
+  version: 0.14.2
+  repository: https://tylerauerbeck.github.io/anarchy
+  alias: anarchy-operator
+  condition: anarchy-operator.enabled
+- name: poolboy
+  version: 0.6.1
+  repository: https://tylerauerbeck.github.io/poolboy
+  alias: poolboy-operator
+  condition: poolboy-operator.enabled
+- name: agnosticv-operator
+  version: 0.8.0
+  repository: https://tylerauerbeck.github.io/agnosticv-operator
+  condition: agnosticv-operator.enabled

@@ -27,3 +27,22 @@ crossClusterBackup:
   clusterRoleName: babylon-cross-cluster-backup
   namespace: babylon-cross-cluster-backup
   #kubeConfig: ...
+
+
+anarchy-operator:
+  enabled: true
+  # any values from the anarchy-operator chart
+  # that you may wish to provide a better default
+  # for
+
+agnosticv-operator:
+  enabled: true
+  # any values from the agnosticv-operator chart
+  # that you may wish to provide a better default
+  # for
+
+poolboy-operator:
+  enabled: true
+  # any values from the poolboy-operator chart
+  # that you may wish to provide a better default
+  # for
